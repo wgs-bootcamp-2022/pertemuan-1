@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-fs.writeFileSync('test.txt','hello world secara synchronus'); //membaca file pada file test.txt 
+fs.writeFileSync('test.txt','hello world secara synchronus'); //menulis file pada file test.txt 
 
 fs.readFile('test.txt', 'utf8', function(err, data){ //membaca file pada file test.txt
     if (err) throw err;
